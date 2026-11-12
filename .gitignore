@@ -1,0 +1,6 @@
+*.local
+.env*
+*.key
+*.pem
+*_history
+.DS_Store

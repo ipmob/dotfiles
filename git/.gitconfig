@@ -1,0 +1,9 @@
+# Identity lives in ~/.gitconfig.local (not committed):
+#   [user]
+#     name = Your Name
+#     email = you@example.com
+# Per-folder identities go there too, e.g.
+#   [includeIf "gitdir:~/work/"]
+#     path = ~/.gitconfig-work
+[include]
+	path = ~/.gitconfig.local

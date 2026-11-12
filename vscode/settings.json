@@ -1,0 +1,6 @@
+{
+    "claudeCode.preferredLocation": "panel",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.accessibilitySupport": "on",
+    "files.autoSave": "afterDelay"
+}

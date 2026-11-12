@@ -1,0 +1,72 @@
+{
+  "permissions": {
+    "defaultMode": "default"
+  },
+  "model": "opus",
+  "modelPicker": {
+    "options": [
+      {
+        "model": "claude-opus-4-8",
+        "label": "Opus 4.8"
+      },
+      {
+        "model": "claude-opus-4-6",
+        "label": "Opus 4.6"
+      }
+    ]
+  },
+  "workflowKeywordTriggerEnabled": false,
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/statusline.sh"
+  },
+  "enabledPlugins": {
+    "gddy@godaddy": true,
+    "mattpocock-skills@claude-plugins-official": true,
+    "posthog@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "godaddy": {
+      "source": {
+        "source": "github",
+        "repo": "godaddy/cli"
+      }
+    }
+  },
+  "outputStyle": "Rationale",
+  "subagentPromptCacheTtl": "1h",
+  "effortLevel": "high",
+  "modelSettings": {
+    "claude-opus-5": {
+      "effortLevel": "high"
+    },
+    "claude-sonnet-5": {
+      "effortLevel": "high"
+    },
+    "claude-opus-4-8": {
+      "effortLevel": "high"
+    },
+    "claude-opus-4-6": {
+      "effortLevel": "medium"
+    },
+    "claude-opus-5-5": {
+      "effortLevel": "high"
+    },
+    "claude-sonnet-5-5": {
+      "effortLevel": "high"
+    }
+  },
+  "promptSuggestionEnabled": false,
+  "awaySummaryEnabled": false,
+  "tui": "fullscreen",
+  "voice": {
+    "enabled": true,
+    "mode": "hold"
+  },
+  "theme": "dark-daltonized",
+  "autoCompactEnabled": false,
+  "showTurnDuration": true,
+  "showMessageTimestamps": true,
+  "terminalProgressBarEnabled": true,
+  "voiceEnabled": true
+}
